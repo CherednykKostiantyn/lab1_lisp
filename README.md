@@ -80,3 +80,13 @@ CL-USER> (append *list* (third *list*))
 ```
 
 Варіант 3(19)
+<p align="center">
+<img src="image.png">
+</p>
+
+
+```lisp
+CL-USER>  (set 'l '(3 c b))
+(list 1 'a (nthcdr 2 l) l)
+(1 A (B) (3 C B))
+```
